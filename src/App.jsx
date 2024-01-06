@@ -7,7 +7,7 @@ function App() {
     try {
       const response = await axios.get('https://unsplash.com/search/photos', {
         headers: {
-          Authorization: 'Client-ID nts6xI_lt7ibYFWuDNiAAuShRZMg1N9VHcs-n8B8hhY'
+          Authorization: 'Client-ID zHafJYI1PGoR-1tPIR9w0kpBaq9BKeaydD8qWZFob3w'
         },
         params: {
           query: term
